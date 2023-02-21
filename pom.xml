@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfc>
+   <MachineProfile>
+      <ChangeMachineName>false</ChangeMachineName>
+      <RootPassword>Password1@!</RootPassword>      
+      <Name>MachineName</Name>
+   </MachineProfile>
+   <NetworkProfile>
+      <ConfigureNetwork>false</ConfigureNetwork>
+      <AltDNSIP>192.168.1.1</AltDNSIP>
+      <DNSIP>192.168.1.1</DNSIP>
+      <GatewayIP>192.168.1.1</GatewayIP>
+      <MachineIP>192.168.1.12</MachineIP>
+   </NetworkProfile>
+   <StanchionProfile>
+      <InstallStanchion>false</InstallStanchion>
+       <FPSkyllaIP>192.168.1.24</FPSkyllaIP>
+   </StanchionProfile>
+</sfc>
